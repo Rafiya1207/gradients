@@ -4,7 +4,7 @@
 }
 
 .side-bar {
-  min-width: 25vw;
+  min-width: 18vw;
   max-width: 20vw;
   height: 100vh;
   position: fixed;
@@ -19,18 +19,15 @@
   height: 100vh;
 }
 
-ul {
-  padding: 0;
-}
-
 ul li {
   list-style: none;
   font-size: 28px;
-  text-align: center;
-  padding: 1em;
+  padding: 0.8em;
+  border-radius: 50px 0 0 50px;
 }
 
 a {
   text-decoration: none;
   cursor: pointer;
+  color: black;
 }
